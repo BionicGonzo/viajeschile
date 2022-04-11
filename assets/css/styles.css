@@ -33,7 +33,13 @@ nav img {
 }
 
 .destacados .card h5 {
-    font-size: 25px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.destacados .card p {
+    font-size: 15px;
+    font-weight: 300;
 }
 
 /* FOOTER */
