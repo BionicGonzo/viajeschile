@@ -13,20 +13,21 @@
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
         <!--CSS LOCAL-->
         <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="shortcut icon" href="assets/img/viajes.svg" type="image/x-icon">
         <title>Viajes Chile</title>
     </head>
     <body>
         <!--NAVEGACIÓN-->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light opacity-0">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">Viajes Chile</a>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+              <a class="navbar-brand" href="#"><img src="assets/img/viajes.svg">Viajes Chile</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="navbar-nav ms-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">Quienes Somos</a>
@@ -42,7 +43,7 @@
             </div>
         </nav>
         <!--CARRUSEL-->
-        <section class="d-flex d-md-flex d-lg-flex d-xl-flex">
+        <section>
           <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -66,30 +67,32 @@
           </div>
         </section>
         <!--¿QUIÉNES SOMOS? (debe desaparecer en versión móvil)-->
-        <section class="qsomos">
+        <section class="qsomos container text-center d-none d-md-block d-lg-block">
           <h2>¿QUIÉNES SOMOS?</h2>
           <hr>
-          <div>
-            <div class="iconos">
-              <i class="fa-solid fa-plane"></i>
+          <div class="row">
+            <div class="col">
+              <div class="iconos">
+                <i class="fa-solid fa-plane"></i>
+              </div>
+                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consquat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et, malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+              </div>
+            <div class="col">
+              <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consquat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et, malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
+              <div class="iconos">
+              <i class="fa-solid fa-mountain"></i>
+              </div>
             </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consquat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et, malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-          </div>
-          <div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consquat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et, malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
-            <div class="iconos">
-            <i class="fa-solid fa-mountain"></i>
+            <div class="col">
+              <div class="iconos">
+                <i class="fa-solid fa-route"></i>
+              </div>
+                <p class="text-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consquat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et, malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
             </div>
-          </div>
-          <div>
-            <div class="iconos">
-              <i class="fa-solid fa-route"></i>
-            </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec mattis ante nulla. Donec in neque consectetur, ultrices justo eu, hendrerit lectus. Nullam fermentum turpis et dolor euismod consquat sed sed ante. Curabitur vel lacinia nisi. Sed mollis condimentum rhoncus. Proin sed diam eu risus auctor aliquet. Sed nisi lorem, mollis sit amet gravida in, finibus ut diam. Nunc cursus lacus ex, id interdum nibh tristique ac. Maecenas in mi blandit, euismod ipsum eu, lobortis nisi. Interdum et, malesuada fames ac ante ipsum primis in faucibus. Mauris ultricies sem eu massa pellentesque, id interdum nibh luctus. Nam ac orci id neque posuere aliquam.</p>
           </div>
         </section>
         <!--DESTACADOS-->
-        <section class="destacados">
+        <section class="destacados text-center">
             <h2>DESTACADOS</h2>
             <hr>
             <div>
@@ -130,7 +133,7 @@
             </div>
         </section>
         <!--CONTACTO-->
-        <section>
+        <section class="contacto text-center">
           <h2>CONTACTO</h2>
           <hr>
           <form class="text-start">
