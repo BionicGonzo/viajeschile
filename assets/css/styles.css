@@ -5,7 +5,6 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     text-align: center;
-    box-sizing: border-box;
 }
 
 /* NAVEGACIÓN */
@@ -38,6 +37,15 @@ body {
     padding-bottom: 20px;
 }
 
+.destacados .card {
+    background-color: #0DCAF0;
+    text-align: left;
+}
+
+.destacados .card h5 {
+    font-size: 25px;
+}
+
 /* CONTACTO */
 
 
@@ -51,6 +59,7 @@ body {
     margin-top: 50px;
 }
 
-.footerVC i {
+.footerVC a {
     padding: 10px;
+    color: #ffffff;
 }
