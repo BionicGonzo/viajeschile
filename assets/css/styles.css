@@ -28,3 +28,14 @@ body {
 
 
 /* FOOTER */
+
+.footerVC {
+    background-color: #0DCAF0;
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+
+.footerVC i {
+    padding: 10px;
+}
