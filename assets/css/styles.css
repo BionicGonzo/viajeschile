@@ -4,7 +4,10 @@ body {
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    font-weight: 300;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 h2 {
@@ -17,63 +20,31 @@ nav img {
     width: 20px;
 }
 
-/* CARRUSEL */
-
-
-
-/* ¿QUIÉNES SOMOS? (debe desaparecer en versión móvil */
-
-.qsomos {
-    box-sizing: border-box;
-    padding: 40px;
-}
-
-.qsomos h2 {
-    padding-bottom: 20px;
-}
-
 .qsomos .iconos {
-    background-color: #0DCAF0;
     font-size: 30px;
 }
 
-/* DESTACADOS */
-
-.destacados {
-    box-sizing: border-box;
-    padding: 40px;
-}
-
-.destacados h2 {
-    padding-bottom: 20px;
-}
-
 .destacados .card {
-    background-color: #0DCAF0;
-    text-align: left;
+    height: 450px;
+}
+
+.destacados .card img {
+    height: 200px;
 }
 
 .destacados .card h5 {
     font-size: 25px;
 }
 
-/* CONTACTO */
-
-.contacto {
-    box-sizing: border-box;
-    padding: 40px;
-}
-
 /* FOOTER */
 
-.footerVC {
-    background-color: #0DCAF0;
-    font-size: 40px;
+footer h3 {
     font-weight: 400;
-    margin-top: 50px;
 }
 
-.footerVC a {
-    padding: 10px;
+footer a {
+    padding: 0 10px;
+    font-size: 30px;
     color: #ffffff;
+    text-decoration: none;
 }
