@@ -5,6 +5,7 @@ body {
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
     text-align: center;
+    box-sizing: border-box;
 }
 
 /* NAVEGACIÓN */
@@ -17,11 +18,25 @@ body {
 
 /* ¿QUIÉNES SOMOS? (debe desaparecer en versión móvil */
 
+.qsomos {
+    box-sizing: border-box;
+    padding: 40px;
+}
 
+.qsomos h2 {
+    padding-bottom: 20px;
+}
 
 /* DESTACADOS */
 
+.destacados {
+    box-sizing: border-box;
+    padding: 40px;
+}
 
+.destacados h2 {
+    padding-bottom: 20px;
+}
 
 /* CONTACTO */
 
